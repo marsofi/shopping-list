@@ -1,0 +1,49 @@
+li {
+	list-style-type: none;
+	margin: 15px;
+}
+
+ button {
+	margin-right: 5px;
+	border-radius: 5px;
+	color: white;
+}
+li > div  {
+	margin-top: 5px;
+}
+button:hover {
+	opacity: .85;
+	cursor: pointer;
+}
+h1 {
+	text-align: center;
+}
+form {
+	align-content: center;
+}
+.item {
+	border: dashed goldenrod 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.checkBtn {
+	background-color: dodgerblue;
+}
+
+.deleteBtn {
+	background-color: salmon;
+}
+
+.submitBtn {
+	background-color: yellowgreen;
+}
+
+
+.checked > p{
+	text-decoration: line-through;
+	font-style: italic;
+	color: grey;
+}
+
+
+
